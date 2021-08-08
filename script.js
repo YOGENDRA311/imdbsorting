@@ -150,7 +150,7 @@ return movies
 function getMaxMovieObject(movies, start, sortAttr){
   // Code from previous findMaxHelper() function
   let max_obj = movies[start];
-  let max_location = start
+  let max_location = start;
 
   for (let i = start; i < movies.length; i++) {
       if (movies[i][sortAttr] > max_obj[sortAttr]) {
