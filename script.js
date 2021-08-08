@@ -134,12 +134,12 @@ function sortMoviesByAttr(movies, sortAttr){
     //     }
     // }
     // swap the first and the last
-    movies[max_location] = movies[j] // --> 10
-    movies[j] = max_obj
+    movies[max_location] = movies[j]; // --> 10
+    movies[j] = max_obj;
     
 }
 
-return movies
+return movies;
 }
 
 
