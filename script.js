@@ -154,8 +154,8 @@ function getMaxMovieObject(movies, start, sortAttr){
 
   for (let i = start; i < movies.length; i++) {
       if (movies[i][sortAttr] > max_obj[sortAttr]) {
-          max_obj = movies[i]
-          max_location = i
+          max_obj = movies[i];
+          max_location = i;
       }
   }
   return {max_obj: max_obj, max_index: max_location}
